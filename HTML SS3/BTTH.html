@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng ký sinh viên mới</title>
+</head>
+<body>
+
+<h2>Đăng ký sinh viên mới</h2>
+
+<form>
+
+<label>Họ và tên</label><br>
+<input type="text" name="fullname" value="Nguyễn Văn An">
+<br><br>
+
+<label>Ngày sinh đầy đủ</label><br>
+<input type="date" name="birthday" value="2005-03-15">
+<br><br>
+
+<label>Tháng và năm nhập học</label><br>
+<input type="month" name="start_month" value="2023-09">
+<br><br>
+
+<label>Thời gian học</label><br>
+<input type="time" name="study_time" value="08:00">
+<br><br>
+
+<label>Giới tính</label><br>
+<input type="radio" name="gender" value="Nam"> Nam
+<input type="radio" name="gender" value="Nữ"> Nữ
+<input type="radio" name="gender" value="Khác" checked> Khác
+<br><br>
+
+<label>Email sinh viên</label><br>
+<input type="email" name="email" value="sinhvien@university.edu.vn">
+<br><br>
+
+<label>Mật khẩu</label><br>
+<input type="password" name="password" value="12345678">
+<br><br>
+
+<label>Mục tiêu học tập</label><br>
+<textarea name="goal" rows="4" cols="50">
+Muốn trở thành lập trình viên giỏi và đóng góp cho xã hội
+</textarea>
+<br><br>
+
+<label>Cơ sở</label><br>
+<select name="campus">
+    <option>Hà Nội</option>
+    <option>Đà Nẵng</option>
+    <option>TP.HCM</option>
+</select>
+<br><br>
+
+<label>Ảnh thẻ sinh viên</label>
+<input type="file" name="student_photo">
+<br><br>
+
+<label>Môn học yêu thích</label><br>
+<input type="checkbox" name="subject" checked> Toán học
+<input type="checkbox" name="subject" checked> Lập trình
+<input type="checkbox" name="subject"> Tiếng Anh
+<input type="checkbox" name="subject"> Vật lý
+<br><br>
+
+<label>Tiến độ học tập</label><br>
+<input type="range" name="progress" min="0" max="100" value="50">
+<br><br>
+
+<label>Năm học thứ</label><br>
+<input type="number" name="year" value="2">
+<br><br>
+
+<label>Tìm kiếm khóa học</label><br>
+<input type="search" name="search_course" value="Khoa học máy tính">
+<br><br>
+
+<label>Màu sắc yêu thích</label><br>
+<input type="color" name="favorite_color">
+<br><br>
+
+<button type="reset">Hủy</button>
+<button type="reset">Làm mới</button>
+<button type="submit">Gửi</button>
+
+</form>
+
+</body>
+</html>
